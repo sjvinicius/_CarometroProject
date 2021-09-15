@@ -20,7 +20,8 @@ namespace Carometro.Testes.Entidades
                 EnStatus.Cursando,
                 "14232152231",
                 "Rua Vitória, 242",
-                1245123142
+                1245123142,
+                "Allahu"
                 );
 
             Assert.True(aluno.IsValid, "Aluno é valido");

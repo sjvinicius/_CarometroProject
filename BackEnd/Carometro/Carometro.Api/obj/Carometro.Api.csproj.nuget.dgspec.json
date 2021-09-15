@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj": {}
+    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Api\\Carometro.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj": {
+    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Api\\Carometro.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
         "projectName": "Carometro.Api",
-        "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
-        "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\obj\\",
+        "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
+        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj"
+              "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj"
               }
             }
           }
@@ -95,21 +95,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
+    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
         "projectName": "Carometro.Comum",
-        "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
-        "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\obj\\",
+        "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
+        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,6 +135,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Flunt": {
               "target": "Package",
               "version": "[2.0.5, )"
@@ -155,21 +159,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
+    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
         "projectName": "Carometro.Dominio",
-        "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
-        "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -183,8 +187,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
-                "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj"
+              "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
+                "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj"
               }
             }
           }
@@ -219,21 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
+    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj",
         "projectName": "Carometro.Infra.Data",
-        "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -247,8 +251,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
-                "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
+              "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
               }
             }
           }
@@ -303,7 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

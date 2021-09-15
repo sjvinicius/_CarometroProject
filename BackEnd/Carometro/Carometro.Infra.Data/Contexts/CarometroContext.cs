@@ -18,7 +18,6 @@ namespace Carometro.Infra.Data.Contexts
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Aluno> Alunos { get; set; }
-        public DbSet<Foto> Fotos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -38,8 +37,8 @@ namespace Carometro.Infra.Data.Contexts
             modelBuilder.Entity<Usuario>().Property(x => x.Email).HasColumnType("varchar(60)");
             modelBuilder.Entity<Usuario>().Property(x => x.Email).IsRequired();
 
-            modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasMaxLength(40);
-            modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasColumnType("varchar(40)");
+            modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasMaxLength(200);
+            modelBuilder.Entity<Usuario>().Property(x => x.Senha).HasColumnType("varchar(200)");
             modelBuilder.Entity<Usuario>().Property(x => x.Senha).IsRequired();
 
             modelBuilder.Entity<Usuario>().Property(x => x.TipoUsuario).HasColumnType("int");
@@ -79,26 +78,30 @@ namespace Carometro.Infra.Data.Contexts
             modelBuilder.Entity<Aluno>().Property(x => x.NumMatricula).HasColumnType("int");
             modelBuilder.Entity<Aluno>().Property(x => x.NumMatricula).IsRequired();
 
+            modelBuilder.Entity<Aluno>().Property(x => x.Foto).HasMaxLength(200);
+            modelBuilder.Entity<Aluno>().Property(x => x.Foto).HasColumnType("varchar(200)");
+            modelBuilder.Entity<Aluno>().Property(x => x.Foto).IsRequired();
+
             // Um pra um, relacionamento
-            modelBuilder.Entity<Aluno>()
-                .HasOne<Foto>(f => f.FotoAluno)
-                .WithOne(a => a.Aluno)
-                .HasForeignKey<Foto>(fk => fk.IdAluno);
+            //modelBuilder.Entity<Aluno>()
+            //    .HasOne<Foto>(f => f.FotoAluno)
+            //    .WithOne(a => a.Aluno)
+            //    .HasForeignKey<Foto>(fk => fk.IdAluno);
 
             #endregion
 
 
-            #region Tabela Fotos
+            //#region Tabela Fotos
 
-            modelBuilder.Entity<Foto>().ToTable("Fotos");
+            //modelBuilder.Entity<Foto>().ToTable("Fotos");
 
-            modelBuilder.Entity<Foto>().Property(x => x.Id);
+            //modelBuilder.Entity<Foto>().Property(x => x.Id);
 
-            modelBuilder.Entity<Foto>().Property(x => x.FotoPath).HasMaxLength(255);
-            modelBuilder.Entity<Foto>().Property(x => x.FotoPath).HasColumnType("varchar(255)");
-            modelBuilder.Entity<Foto>().Property(x => x.FotoPath).IsRequired();
+            //modelBuilder.Entity<Foto>().Property(x => x.FotoPath).HasMaxLength(255);
+            //modelBuilder.Entity<Foto>().Property(x => x.FotoPath).HasColumnType("varchar(255)");
+            //modelBuilder.Entity<Foto>().Property(x => x.FotoPath).IsRequired();
 
-            #endregion
+            //#endregion
 
             base.OnModelCreating(modelBuilder);
         }

@@ -1,5 +1,6 @@
 ﻿using Carometro.Comum.Commands;
 using Carometro.Comum.Handlers.Contracts;
+using Carometro.Comum.Utils;
 using Carometro.Dominio.Commands.Usuario;
 using Carometro.Dominio.Entidades;
 using Carometro.Dominio.Repositorios;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Carometro.Dominio.Handlers.Usuarios
 {
-    public class CriarUsuarioHandle : Notifiable<Notification>, IHandlerCommand<CriarContaCommand>
+    public class CriarUsuarioHandle : Notifiable<Notification>, IHandler<CriarContaCommand>
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
 
@@ -39,6 +40,9 @@ namespace Carometro.Dominio.Handlers.Usuarios
             var usuarioExiste = _usuarioRepositorio.BuscarPorEmail(command.Email);
             if (usuarioExiste != null)
                 return new GenericCommandResult(false, "Email já cadastrado", "Informe outro email");
+
+            // Criptografia
+            command.Senha = Senha.Criptografar(command.Senha);
 
             // Salvar
             Usuario usuario = new Usuario(command.Nome, command.Email, command.Senha, command.TipoUsuario);

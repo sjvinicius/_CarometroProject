@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Carometro.Infra.Data\Carometro.Infra.Data.csproj" />
   </ItemGroup>
 

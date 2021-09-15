@@ -15,7 +15,7 @@ namespace Carometro.Dominio.Repositorios
         /// <param name="usuario">Dados do usuário</param>
         void Adicionar(Usuario usuario);
         void Alterar(Usuario usuario);
-        void AlterarSenha(Usuario usuario);
+        //void AlterarSenha(Usuario usuario);
         Usuario BuscarPorEmail(string email);
         /// <summary>
         /// Busca um usuário baseado no Id

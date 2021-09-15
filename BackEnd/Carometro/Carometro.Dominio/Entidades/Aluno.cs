@@ -16,7 +16,7 @@ namespace Carometro.Dominio.Entidades
         {
 
         }
-        public Aluno(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula)
+        public Aluno(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula, string foto)
         {
             AddNotifications(
                 new Contract<Notification>()
@@ -27,6 +27,7 @@ namespace Carometro.Dominio.Entidades
                 .IsNotEmpty(rg, "RG", "RG não pode ser vazio")
                 .IsNotEmpty(endereco, "Endereco", "Endereço não pode ser vazio")
                 .IsNotNull(numMatricula, "NumMatricula", "Numero de matricula não pode ser vazio")
+                .IsNotEmpty(foto, "Foto", "Caminho da foto não pode ser vazio")
             );
 
             if (IsValid)
@@ -37,6 +38,7 @@ namespace Carometro.Dominio.Entidades
                 RG = rg;
                 Endereco = endereco;
                 NumMatricula = numMatricula;
+                Foto = foto;
             }
         }
 
@@ -46,7 +48,7 @@ namespace Carometro.Dominio.Entidades
         public string RG { get; private set; }
         public string Endereco { get; private set; }
         public int NumMatricula { get; private set; }
+        public string Foto { get; private set; }
 
-        public Foto FotoAluno { get; private set; }
     }
 }

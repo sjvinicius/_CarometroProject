@@ -1,5 +1,4 @@
-﻿using Carometro.Comum.Enum;
-using Carometro.Dominio.Entidades;
+﻿using Carometro.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +18,5 @@ namespace Carometro.Dominio.Repositorios
         Aluno BuscarPorNome(string nome);
 
         Aluno BuscarPorID(Guid id);
-        object Listar(EnStatus? concluido);
     }
 }

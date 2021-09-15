@@ -1,5 +1,8 @@
-using Carometro.Dominio.Handlers;
+using Carometro.Dominio.Handlers.Autenticacao;
+using Carometro.Dominio.Handlers.Usuarios;
+using Carometro.Dominio.Repositorios;
 using Carometro.Infra.Data.Contexts;
+using Carometro.Infra.Data.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -51,6 +54,11 @@ namespace Carometro.Api
                     };
                 });
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Carometro.Api", Version = "v1" });
+            });
+
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
@@ -60,12 +68,14 @@ namespace Carometro.Api
                     );
             });
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Carometro.Api", Version = "v1" });
-            });
+            #region Injeções de Dependência Usuário
 
-            services.AddTransient<ListarAlunosHandle, ListarAlunosHandle>();
+            services.AddTransient<LogarHandle, LogarHandle>();
+            services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
+            services.AddTransient<CriarUsuarioHandle, CriarUsuarioHandle>();
+
+            #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

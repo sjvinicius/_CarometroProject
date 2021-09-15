@@ -66,3 +66,4 @@ C:\Users\Desktop\source\repos\Carometro\Carometro.Api\obj\Debug\net5.0\Carometro
 C:\Users\Desktop\source\repos\Carometro\Carometro.Api\obj\Debug\net5.0\ref\Carometro.Api.dll
 C:\Users\Desktop\source\repos\Carometro\Carometro.Api\obj\Debug\net5.0\Carometro.Api.pdb
 C:\Users\Desktop\source\repos\Carometro\Carometro.Api\obj\Debug\net5.0\Carometro.Api.genruntimeconfig.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Api\bin\Debug\net5.0\BCrypt.Net-Core.dll

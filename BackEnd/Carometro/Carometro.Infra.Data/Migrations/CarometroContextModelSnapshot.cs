@@ -33,13 +33,18 @@ namespace Carometro.Infra.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
+                    b.Property<string>("Foto")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("varchar(30)");
 
                     b.Property<int>("NumMatricula")
-                        .HasColumnType("int(200)");
+                        .HasColumnType("int");
 
                     b.Property<string>("RG")
                         .IsRequired()
@@ -47,7 +52,7 @@ namespace Carometro.Infra.Data.Migrations
                         .HasColumnType("varchar(14)");
 
                     b.Property<int>("Status")
-                        .HasColumnType("int(200)");
+                        .HasColumnType("int");
 
                     b.Property<string>("Turma")
                         .IsRequired()
@@ -56,31 +61,6 @@ namespace Carometro.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Alunos");
-                });
-
-            modelBuilder.Entity("Carometro.Dominio.Entidades.Foto", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("DataCriacao")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("FotoPath")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<Guid>("IdAluno")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("IdAluno")
-                        .IsUnique();
-
-                    b.ToTable("Fotos");
                 });
 
             modelBuilder.Entity("Carometro.Dominio.Entidades.Usuario", b =>
@@ -104,31 +84,15 @@ namespace Carometro.Infra.Data.Migrations
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("varchar(40)");
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("TipoUsuario")
-                        .HasColumnType("int(200)");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
-                });
-
-            modelBuilder.Entity("Carometro.Dominio.Entidades.Foto", b =>
-                {
-                    b.HasOne("Carometro.Dominio.Entidades.Aluno", "Aluno")
-                        .WithOne("FotoAluno")
-                        .HasForeignKey("Carometro.Dominio.Entidades.Foto", "IdAluno")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Aluno");
-                });
-
-            modelBuilder.Entity("Carometro.Dominio.Entidades.Aluno", b =>
-                {
-                    b.Navigation("FotoAluno");
                 });
 #pragma warning restore 612, 618
         }

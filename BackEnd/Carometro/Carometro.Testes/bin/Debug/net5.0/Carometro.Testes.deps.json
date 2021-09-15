@@ -19,6 +19,14 @@
           "Carometro.Testes.dll": {}
         }
       },
+      "BCrypt.Net-Core/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/BCrypt.Net-Core.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
       "coverlet.collector/1.3.0": {},
       "Flunt/2.0.5": {
         "runtime": {
@@ -1099,6 +1107,7 @@
       "xunit.runner.visualstudio/2.4.3": {},
       "Carometro.Comum/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Core": "1.6.0",
           "Flunt": "2.0.5"
         },
         "runtime": {
@@ -1121,6 +1130,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net-Core/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsKiHGjrnlDW05MzuzzlD9gNP8YOW2KbZ+FbvISrilsKJJ76tXKhWey6psZX5sd7DczNpSU2U6ldjPoblk8BLw==",
+      "path": "bcrypt.net-core/1.6.0",
+      "hashPath": "bcrypt.net-core.1.6.0.nupkg.sha512"
     },
     "coverlet.collector/1.3.0": {
       "type": "package",

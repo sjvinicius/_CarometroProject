@@ -103,3 +103,4 @@ C:\Users\Desktop\source\repos\Carometro\Carometro.Testes\obj\Debug\net5.0\Carome
 C:\Users\Desktop\source\repos\Carometro\Carometro.Testes\obj\Debug\net5.0\ref\Carometro.Testes.dll
 C:\Users\Desktop\source\repos\Carometro\Carometro.Testes\obj\Debug\net5.0\Carometro.Testes.pdb
 C:\Users\Desktop\source\repos\Carometro\Carometro.Testes\obj\Debug\net5.0\Carometro.Testes.genruntimeconfig.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Testes\bin\Debug\net5.0\BCrypt.Net-Core.dll
