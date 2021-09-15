@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ORCzg3LELFRvBjLec9HGi/mmcladAWQELjWLZG22rOz+mmGBVhcW/08wSi/inh+lRM76YU6u2kaw6/bo73j/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Desktop\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
