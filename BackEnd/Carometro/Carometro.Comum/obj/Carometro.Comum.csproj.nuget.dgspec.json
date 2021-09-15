@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {}
+    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
+    "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
+        "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
         "projectName": "Carometro.Comum",
-        "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
-        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\obj\\",
+        "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
+        "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -53,19 +53,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Desktop\\.nuget\\packages\\": {}
+    "C:\\Users\\MatheusNeri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
       "projectName": "Carometro.Dominio",
-      "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+      "packagesPath": "C:\\Users\\MatheusNeri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MatheusNeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
-              "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj"
+            "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj": {
+              "projectPath": "C:\\Users\\MatheusNeri\\Desktop\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj"
             }
           }
         }
@@ -115,7 +115,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
