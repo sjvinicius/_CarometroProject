@@ -10,7 +10,7 @@ namespace Carometro.Dominio.Queries.Alunos
 {
     public class ListarAlunosQuery : IQuery
     {
-        public EnStatus? Concluido { get; set; } = null;
+        public bool? ativo { get; set; } = null;
         public void Validar()
         {
             throw new NotImplementedException();

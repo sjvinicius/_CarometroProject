@@ -22,7 +22,7 @@ namespace Carometro.Dominio.Handlers
         }
         public IQueryResult Handler(ListarAlunosQuery query)
         {
-            var alunos = _alunoRepositorio.Listar(query.Concluido);
+            var alunos = _alunoRepositorio.Listar(query.ativo);
 
             var retornaAlunos = alunos.Select(
                     x =>
