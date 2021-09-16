@@ -21,11 +21,11 @@ namespace Carometro.Dominio.Queries.Alunos
 
         public class ListarAlunosResult
         {
-        public string Nome { get; set; }
-        public EnTurma Turma { get; set; }
-        public EnStatus Status { get; set; }
-        public string RG { get; set; }
-        public string Endereco { get; set; }
-        public int NumMatricula { get; set; }
-    }
+            public string Nome { get; set; }
+            public EnTurma Turma { get; set; }
+            public EnStatus Status { get; set; }
+            public string RG { get; set; }
+            public string Endereco { get; set; }
+            public int NumMatricula { get; set; }
+        }
 }
