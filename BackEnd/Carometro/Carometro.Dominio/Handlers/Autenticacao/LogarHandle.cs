@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Carometro.Dominio.Handlers.Autenticacao
 {
-    public class LogarHandle : Notifiable<Notification>, IHandler<LogarCommand>
+    public class LogarHandle : Notifiable<Notification>, IHandlerCommand<LogarCommand>
     {
         // La injéccion de dependencia
         private readonly IUsuarioRepositorio _usuarioRepositorio;

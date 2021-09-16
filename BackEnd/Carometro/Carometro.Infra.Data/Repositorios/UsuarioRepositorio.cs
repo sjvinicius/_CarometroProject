@@ -41,7 +41,7 @@ namespace Carometro.Infra.Data.Repositorios
             return _context.Usuarios.FirstOrDefault(x => x.Id == id);
         }
 
-        public ICollection<Usuario> Listar(bool? ativo = null)
+        public ICollection<Usuario> Listar()
         {
             return _context.Usuarios
                 .AsNoTracking()

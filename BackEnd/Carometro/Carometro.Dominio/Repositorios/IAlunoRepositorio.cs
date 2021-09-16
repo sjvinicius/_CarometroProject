@@ -13,7 +13,7 @@ namespace Carometro.Dominio.Repositorios
 
         void Alterar(Aluno aluno);
 
-        ICollection<Aluno> Listar(bool? ativo = null);
+        ICollection<Aluno> Listar();
 
         Aluno BuscarPorNome(string nome);
 

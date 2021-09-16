@@ -1,3 +1,4 @@
+using Carometro.Dominio.Handlers.Alunos;
 using Carometro.Dominio.Handlers.Autenticacao;
 using Carometro.Dominio.Handlers.Usuarios;
 using Carometro.Dominio.Repositorios;
@@ -73,6 +74,14 @@ namespace Carometro.Api
             services.AddTransient<LogarHandle, LogarHandle>();
             services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddTransient<CriarUsuarioHandle, CriarUsuarioHandle>();
+
+            #endregion
+
+            #region Injeções de Dependência Aluno
+
+            services.AddTransient<IAlunoRepositorio, AlunoRepositorio>();
+            services.AddTransient<CriarAlunoHandle, CriarAlunoHandle>();
+            services.AddTransient<ListarAlunosHandle, ListarAlunosHandle>();
 
             #endregion
 
