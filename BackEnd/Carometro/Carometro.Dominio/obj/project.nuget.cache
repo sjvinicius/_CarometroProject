@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HCXEcq4lDbs3dlD4F/5V3UNH3nR9Zw+CAGcZXDn4st347Anu4yquP6eZKK2XPbrvvSVpTzAti7NzwMkQNV6cQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Desktop\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\Desktop\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

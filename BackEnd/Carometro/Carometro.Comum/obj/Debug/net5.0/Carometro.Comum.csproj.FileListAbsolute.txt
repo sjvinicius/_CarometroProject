@@ -1,0 +1,12 @@
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.deps.json
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\bin\Debug\net5.0\ref\Carometro.Comum.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.pdb
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csprojAssemblyReference.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfoInputs.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfo.cs
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\ref\Carometro.Comum.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.pdb
