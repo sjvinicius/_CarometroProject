@@ -17,7 +17,7 @@ namespace Carometro.Dominio.Commands.Aluno
 
         }
 
-        public CadastrarCommand(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula)
+        public CadastrarCommand(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula, string foto)
         {
             Nome = nome;
             Turma = turma;
@@ -25,14 +25,16 @@ namespace Carometro.Dominio.Commands.Aluno
             RG = rg;
             Endereco = endereco;
             NumMatricula = numMatricula;
+            Foto = foto;
         }
 
-        public string Nome { get; private set; }
-        public EnTurma Turma { get; private set; }
-        public EnStatus Status { get; private set; }
-        public string RG { get; private set; }
-        public string Endereco { get; private set; }
-        public int NumMatricula { get; private set; }
+        public string Nome { get; set; }
+        public EnTurma Turma { get; set; }
+        public EnStatus Status { get; set; }
+        public string RG { get; set; }
+        public string Endereco { get; set; }
+        public int NumMatricula { get; set; }
+        public string Foto { get; set; }
 
         public void Validar()
         {
@@ -45,6 +47,7 @@ namespace Carometro.Dominio.Commands.Aluno
                 .IsNotEmpty(RG, "RG", "RG não pode ser vazio")
                 .IsNotEmpty(Endereco, "Endereco", "Endereço não pode ser vazio")
                 .IsNotNull(NumMatricula, "NumMatricula", "Numero de matricula não pode ser vazio")
+                .IsNotEmpty(Foto, "Foto", "Caminho da foto não pode ser vazio")
             );
         }
 

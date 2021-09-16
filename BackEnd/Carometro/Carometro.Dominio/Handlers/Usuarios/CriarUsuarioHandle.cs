@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Carometro.Dominio.Handlers.Usuarios
 {
-    public class CriarUsuarioHandle : Notifiable<Notification>, IHandler<CriarContaCommand>
+    public class CriarUsuarioHandle : Notifiable<Notification>, IHandlerCommand<CriarContaCommand>
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
 

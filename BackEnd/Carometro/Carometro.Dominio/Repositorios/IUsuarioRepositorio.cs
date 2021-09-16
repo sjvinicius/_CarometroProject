@@ -28,6 +28,6 @@ namespace Carometro.Dominio.Repositorios
         /// </summary>
         /// <param name="ativo"></param>
         /// <returns>Todos os usuários</returns>
-        ICollection<Usuario> Listar(bool? ativo = null);
+        ICollection<Usuario> Listar();
     }
 }
