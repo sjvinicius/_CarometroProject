@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Carometro.Infra.Data.Migrations
 {
     [DbContext(typeof(CarometroContext))]
-    [Migration("20210915180624_Projeto Inicial - Foto Removido")]
-    partial class ProjetoInicialFotoRemovido
+    [Migration("20210916173735_Marco deveras bonito]")]
+    partial class Marcodeverasbonito
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,8 +37,8 @@ namespace Carometro.Infra.Data.Migrations
 
                     b.Property<string>("Foto")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -86,8 +86,8 @@ namespace Carometro.Infra.Data.Migrations
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("varchar(40)");
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
 
                     b.Property<int>("TipoUsuario")
                         .HasColumnType("int");

@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Carometro.Comum\Carometro.Comum.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Queries\Alunos\" />
+  </ItemGroup>
+
 </Project>
