@@ -24,8 +24,17 @@ Tendo esse problema em mente como podemos tornar acessivel os dados dos alunos a
 - [x] Divisão de tarefas 
 - [x] **Mãos a Massa**
 
-## Entrega esperada
-     
-  - **Um sistema simples e ágil para facilitar e simplificar o trabalho dos colaboradores e da instituição de ensino** 
-    
-O projeto simula uma necessidade de cliente para reconhecer as pessoas que estão frequentando um determinado ambiente e apresente dados dessa pessoas através de fotos e IA
+## Entrega esperada 
+  **Um sistema simples e ágil para facilitar e simplificar o trabalho dos colaboradores e da instituição de ensino** 
+  
+## Equipe
+
+  **Por ultimo mas não menos importante os verdadeiros desenvolvedores deste projeto**
+  
+  - [Mauro Cortez](https://www.linkedin.com/in/mauro-cortez-18854316a/) - Product Owner 
+  - [Vinicius Silva](https://www.linkedin.com/in/vin%C3%ADcius-silva-b51270180/) - Desenvolvedor Front-End 
+  - [Vinicio Santos](https://www.linkedin.com/in/vinicio-santos-28754a210/) - Desenvolvedor Back-End
+  - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - Desenvolvedor Back-End
+  - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - Desenvolvedor Back-End
+  - [](url)E eu quem vos falo Marco Antonio - Scrum Master Desenvolvedor Front-End
+  - 
