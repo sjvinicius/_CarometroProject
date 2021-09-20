@@ -32,8 +32,8 @@ Tendo esse problema em mente como podemos tornar acessivel os dados dos alunos a
   **Por ultimo mas não menos importante os verdadeiros desenvolvedores deste projeto**
   
   - [Mauro Cortez](https://www.linkedin.com/in/mauro-cortez-18854316a/) - Product Owner 
-  - [Vinicius Silva](https://www.linkedin.com/in/vin%C3%ADcius-silva-b51270180/) - Desenvolvedor Front-End 
-  - [Vinicio Santos](https://www.linkedin.com/in/vinicio-santos-28754a210/) - Desenvolvedor Back-End
-  - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - Desenvolvedor Back-End
-  - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - Desenvolvedor Back-End
-  - E eu quem vos falo [Marco Antonio](url) - Scrum Master Desenvolvedor Front-End
+  - [Vinicius Silva](https://www.linkedin.com/in/vin%C3%ADcius-silva-b51270180/) - Desenvolvedor FrontEnd 
+  - [Vinicio Santos](https://www.linkedin.com/in/vinicio-santos-28754a210/) - Desenvolvedor BackEnd
+  - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - Desenvolvedor BackEnd-FrontEnd
+  - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - Desenvolvedor BackEnd
+  - E eu quem vos falo [Marco Antonio](url) - Scrum Master Desenvolvedor FrontEnd
