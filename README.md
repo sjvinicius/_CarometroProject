@@ -37,4 +37,3 @@ Tendo esse problema em mente como podemos tornar acessivel os dados dos alunos a
   - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - Desenvolvedor Back-End
   - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - Desenvolvedor Back-End
   - E eu quem vos falo [Marco Antonio](url) - Scrum Master Desenvolvedor Front-End
-  - 
