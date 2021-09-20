@@ -1,4 +1,4 @@
-# _CarometroProject
+# CarometroProject
 ## Bem vindo ao nosso Projeto Carometro
 
 Este projeto foi realizado em equipe por alunos da Escola SENAI de Informática, aplicando conhecimentos adquiridos ao longo de pouco mais que 2 semestres desenvolvendo softskills e hardskills. 
