@@ -26,6 +26,6 @@ Tendo esse problema em mente como podemos tornar acessivel os dados dos alunos a
 
 ## Entrega esperada
      
-     Um sistema simples e agíl para facilitar e simplificar o trabalho dos colaboradores e da instituição de ensino 
+  - **Um sistema simples e ágil para facilitar e simplificar o trabalho dos colaboradores e da instituição de ensino** 
     
 O projeto simula uma necessidade de cliente para reconhecer as pessoas que estão frequentando um determinado ambiente e apresente dados dessa pessoas através de fotos e IA
