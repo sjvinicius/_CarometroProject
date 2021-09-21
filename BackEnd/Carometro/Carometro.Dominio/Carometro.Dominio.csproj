@@ -10,14 +10,11 @@
 
   <ItemGroup>
     <PackageReference Include="Flunt" Version="2.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Carometro.Comum\Carometro.Comum.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Queries\Alunos\" />
   </ItemGroup>
 
 </Project>

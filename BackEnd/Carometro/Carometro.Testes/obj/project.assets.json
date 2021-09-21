@@ -26,6 +26,19 @@
           "lib/netstandard2.0/Flunt.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1",
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.7.1": {
         "type": "package",
         "compile": {
@@ -64,6 +77,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
       "Microsoft.NET.Test.Sdk/16.7.1": {
@@ -899,6 +921,15 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+      "System.IO.Pipelines/5.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {}
+        }
+      },
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1686,7 +1717,8 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Carometro.Comum": "1.0.0",
-          "Flunt": "2.0.5"
+          "Flunt": "2.0.5",
+          "Microsoft.AspNetCore.Http.Features": "5.0.10"
         },
         "compile": {
           "bin/placeholder/Carometro.Dominio.dll": {}
@@ -1764,6 +1796,25 @@
         "flunt.nuspec",
         "icon.png",
         "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.10": {
+      "sha512": "IWs6dC9OqkREOs8SLs59MZ0I5CHnWrwuZ5yuIMLL8Qr3I3hJNNUzbxU5fgI1BwPddyobgajVlpc3VmgscrHecA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.CodeCoverage/16.7.1": {
@@ -1859,6 +1910,28 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/5.0.1": {
+      "sha512": "5WPSmL4YeP7eW+Vc8XZ4DwjYWBAiSwDV9Hm63JJWcz1Ie3Xjv4KuJXzgCstj48LkLfVCYa7mLcx7y+q6yqVvtw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NET.Test.Sdk/16.7.1": {
@@ -3415,6 +3488,32 @@
         "ref/xamarinwatchos10/_._",
         "system.io.filesystem.primitives.4.3.0.nupkg.sha512",
         "system.io.filesystem.primitives.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/5.0.1": {
+      "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "type": "package",
+      "path": "system.io.pipelines/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.5.0.1.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -5716,19 +5815,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vinyl\\.nuget\\packages\\": {}
+    "C:\\Users\\Desktop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
+      "projectUniqueName": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
       "projectName": "Carometro.Testes",
-      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
-      "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\obj\\",
+      "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
+      "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5742,8 +5841,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
-              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
+            "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
             }
           }
         }
@@ -5798,7 +5897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.207\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

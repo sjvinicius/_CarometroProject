@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zRRmWBLOKZTW4r+woFiMpPjemkDE7i+IQX/Nd0gK0Bar+EKpcIdJpoNRchNJvq8upaQ2J2F69jOP4KWGIoBPkA==",
+  "dgSpecHash": "RgRRuwG4mauzFPA5xIa3Aw0fvV7W6pRZMNwr5pQceYhS3jQL2mkeyGDgXRNwXRqSnKd/fIEHrhX/VNVUb1fKJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Desktop\\source\\repos\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vinyl\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
-    "C:\\Users\\vinyl\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+    "C:\\Users\\Desktop\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\Desktop\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\Desktop\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.10\\microsoft.aspnetcore.http.features.5.0.10.nupkg.sha512",
+    "C:\\Users\\Desktop\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Desktop\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

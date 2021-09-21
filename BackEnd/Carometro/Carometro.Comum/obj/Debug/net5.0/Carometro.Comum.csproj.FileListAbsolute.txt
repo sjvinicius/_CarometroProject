@@ -10,27 +10,3 @@ C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Caromet
 C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.dll
 C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\ref\Carometro.Comum.dll
 C:\Users\Desktop\source\repos\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.pdb
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.deps.json
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\ref\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.pdb
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csprojAssemblyReference.cache
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfoInputs.cache
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfo.cs
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csproj.CoreCompileInputs.cache
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\ref\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Área de Trabalho\_CarometroSENAI\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.pdb
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.deps.json
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\ref\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\bin\Debug\net5.0\Carometro.Comum.pdb
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csprojAssemblyReference.cache
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfoInputs.cache
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.AssemblyInfo.cs
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.csproj.CoreCompileInputs.cache
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\ref\Carometro.Comum.dll
-C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroProject\BackEnd\Carometro\Carometro.Comum\obj\Debug\net5.0\Carometro.Comum.pdb

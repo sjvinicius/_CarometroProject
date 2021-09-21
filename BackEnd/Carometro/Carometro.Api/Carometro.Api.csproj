@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Carometro.Infra.Data\Carometro.Infra.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>

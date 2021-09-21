@@ -2,6 +2,7 @@
 using Carometro.Comum.Enum;
 using Flunt.Notifications;
 using Flunt.Validations;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Carometro.Dominio.Commands.Aluno
 
         }
 
-        public CadastrarCommand(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula, string foto)
+        public CadastrarCommand(string nome, EnTurma turma, EnStatus status, string rg, string endereco, int numMatricula, string foto, IFormFile arquivoImagem)
         {
             Nome = nome;
             Turma = turma;
@@ -26,6 +27,7 @@ namespace Carometro.Dominio.Commands.Aluno
             Endereco = endereco;
             NumMatricula = numMatricula;
             Foto = foto;
+            ArquivoImagem = arquivoImagem;
         }
 
         public string Nome { get; set; }
@@ -35,6 +37,7 @@ namespace Carometro.Dominio.Commands.Aluno
         public string Endereco { get; set; }
         public int NumMatricula { get; set; }
         public string Foto { get; set; }
+        public IFormFile ArquivoImagem { get; set; }
 
         public void Validar()
         {

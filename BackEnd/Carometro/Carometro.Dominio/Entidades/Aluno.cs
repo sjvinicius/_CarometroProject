@@ -2,6 +2,7 @@
 using Carometro.Comum.Enum;
 using Flunt.Notifications;
 using Flunt.Validations;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +50,5 @@ namespace Carometro.Dominio.Entidades
         public string Endereco { get; private set; }
         public int NumMatricula { get; private set; }
         public string Foto { get; private set; }
-
     }
 }

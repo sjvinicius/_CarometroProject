@@ -51,7 +51,7 @@ namespace Carometro.Api.Controllers
 
         [Route("signup")]
         [HttpPost]
-        public GenericCommandResult SignUo(CriarContaCommand command, [FromServices] CriarUsuarioHandle handle)
+        public GenericCommandResult SignUp(CriarContaCommand command, [FromServices] CriarUsuarioHandle handle)
         {
             return (GenericCommandResult)handle.Handler(command);
         }
