@@ -37,3 +37,43 @@ Tendo esse problema em mente como podemos tornar acessivel os dados dos alunos a
   - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - Desenvolvedor BackEnd-FrontEnd
   - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - Desenvolvedor BackEnd
   - E eu quem vos falo [Marco Antonio](url) - Scrum Master Desenvolvedor FrontEnd
+
+# CarometroProject
+## Welcome to our Carometro Project
+
+This project was carried out as a team by students from the SENAI School of Informatics, applying knowledge acquired over a little more than 2 semesters, developing softskills and hardskills.
+
+## Challenge
+
+- A school and all its employees need to know the faculty, but this becomes almost impossible considering the number of students given the size of the institution and with the pandemic this problem only got worse.
+With this issue in mind, how can we make student data accessible to their photos for access by faculty and other staff?
+
+## Solution
+
+- The solution our team found was to make a WEB Mobile application where the student's data is stored along with their photo.
+
+## Stages of development
+  
+  ***It is important to mention that throughout this project we used the scrum methodology for better team productivity***
+  
+- [x] Analysis and requirements gathering
+- [x] Generate documentation
+- [x] Modeling and Prototyping
+- [x] Creation of our azure devops to organize tasks to be done
+- [x] Sprints Division
+- [x] Division of tasks
+- [x] **Hands on**
+
+## Expected delivery
+  **A simple and agile system to facilitate and simplify the work of employees and the educational institution**
+  
+## Team
+
+  **Last but not least the real developers of this project**
+  
+  - [Mauro Cortez](https://www.linkedin.com/in/mauro-cortez-18854316a/) - Product Owner
+  - [Vinicius Silva](https://www.linkedin.com/in/vin%C3%ADcius-silva-b51270180/) - FrontEnd Developer
+  - [Vinicio Santos](https://www.linkedin.com/in/vinicio-santos-28754a210/) - BackEnd Developer
+  - [Marcos Vinicius](https://www.linkedin.com/in/marcos-vinicius-16294420b) - BackEnd-FrontEnd Developer
+  - [Matheus Neri](https://www.linkedin.com/in/matheus-neri-dos-santos-6a5501182/) - BackEnd Developer
+  - And I'm telling you [Marco Antonio](url) - Scrum Master Developer FrontEnd
