@@ -5674,11 +5674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
+      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
       "projectName": "Carometro.Api",
-      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
+      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\Carometro.Api.csproj",
       "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Api\\obj\\",
+      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5695,8 +5695,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj"
+            "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Infra.Data\\Carometro.Infra.Data.csproj"
             }
           }
         }

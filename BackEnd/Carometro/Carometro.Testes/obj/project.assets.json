@@ -5721,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
+      "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
       "projectName": "Carometro.Testes",
-      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
+      "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
       "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Testes\\obj\\",
+      "outputPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5742,8 +5742,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
-              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
+            "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj": {
+              "projectPath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj"
             }
           }
         }

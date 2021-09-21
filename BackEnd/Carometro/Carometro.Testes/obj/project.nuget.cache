@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3YK+6BWzAUEAuIOHqnepHU6pRWdOnWIYmLiTVLUn+whFshSUy6T0gRKW/13OgdyXYy9TtJ6Vqgc2zovg5V/O2Q==",
+  "dgSpecHash": "pCmT1X9QRy2VdV++rk1u+2icGEYg8/aiReXUUZ+ZZ73OJg5gZWQQxXRbmmjiV1GVZcf75QY+/0GWKH04jjqc9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
+  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Testes\\Carometro.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinyl\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\vinyl\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",

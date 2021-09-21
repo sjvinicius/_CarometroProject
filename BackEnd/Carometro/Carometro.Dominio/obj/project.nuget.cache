@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dr/OPml+6tvyd5VsEy7EdC5tOwueP2uckHzp1X9FyUS1M7LlLdL5dGtZ6fvNa22khDNe95GnksNOP5r4ziFHfA==",
+  "dgSpecHash": "zRRmWBLOKZTW4r+woFiMpPjemkDE7i+IQX/Nd0gK0Bar+EKpcIdJpoNRchNJvq8upaQ2J2F69jOP4KWGIoBPkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_CarometroSENAI\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Dominio\\Carometro.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinyl\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\vinyl\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
