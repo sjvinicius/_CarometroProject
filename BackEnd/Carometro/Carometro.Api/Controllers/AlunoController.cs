@@ -28,11 +28,11 @@ namespace Carometro.Api.Controllers
             _hostEnvironment = hostEnvironment;
         }
 
-        [HttpPost]
+        [HttpPost, DisableRequestSizeLimit]
         [Authorize(Roles = "Administrador")]
-        public GenericCommandResult Create(CadastrarCommand command, [FromServices] CriarAlunoHandle handle)
+        public GenericCommandResult Create([FromForm]CadastrarCommand command, [FromServices] CriarAlunoHandle handle)
         {
-            if(SaveImage(command.ArquivoImagem) != null)
+            if(SaveImage(command.ArquivoImagem) != null && command.IsValid)
             {
                 command.Foto = SaveImage(command.ArquivoImagem);
             }

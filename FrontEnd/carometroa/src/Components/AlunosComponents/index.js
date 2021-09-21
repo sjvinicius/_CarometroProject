@@ -51,11 +51,13 @@ export default function BodyAlunos() {
         })
 
         console.log(response)
+        
 
         if (response.data.sucesso === true) {
 
 
             setAlunos(response.data.data);
+            
 
         }
 
@@ -67,43 +69,36 @@ export default function BodyAlunos() {
 
         const [fotoValue, setFotoValue] = useState('Enviar Arquivo');
 
-        async function CadastrarAluno(data) {
-
-            // const response = await api.post('/student',
-
-            //     {
-            //         "nome": data.nome,
-            //         "turma": data.turma,
-            //         "status": data.status,
-            //         "rg": data.rG,
-            //         "endereco": data.endereco,
-            //         "numMatricula": data.Nmat,
-            //         "foto": data.file
-            //     },
-
-            //     {
-
-            //         headers: {
-
-            //             'Authorization': 'Bearer ' + localStorage.getItem('tokenUserUp')
-
-            //         }
-                    
-            //     }
-
-            // )
+        function CadastrarAluno(data) {
+            
+            console.log(data.nome)
+            console.log(data.turma)
+            console.log(data.status)
+            console.log(data.rg)
+            console.log(data.endereco)
+            console.log(data.nmat)
+            console.log(data.file)
+            // setFotoValue(data.file)
+            console.log(data.file[0].name)
+            let aluno = {
+                nome : data.nome,
+                turma : data.turma,
+                status : data.status,
+                rg : data.rg,
+                endereco : data.endereco,
+                numMatricula : data.nmat,
+                foto : data.file[0].name,
+                arquivoImagem: data.file
+            }
+            console.log(aluno)
+            api.post('/student', aluno, {
+                    headers: {
+                        'Authorization': 'Bearer ' + localStorage.getItem('tokenUserUp')
+                    }
+                })
 
             // if( response.data.sucesso === true ){
 
-                console.log(data.nome)
-                console.log(data.turma)
-                console.log(data.status)
-                console.log(data.rg)
-                console.log(data.endereco)
-                console.log(data.nmat)
-                console.log(data.file)
-                // setFotoValue(data.file)
-                console.log(data.file.name)
                 
 
             // }

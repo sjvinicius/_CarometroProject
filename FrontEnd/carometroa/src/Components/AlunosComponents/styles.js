@@ -87,7 +87,7 @@ export const Logo = styled(LogoMenu)`
 export const Aside = styled.div`
   background-color: #FFF;
   position: fixed;
-  width: 25%;
+  width: 32%;
   height: 90vh;
   display: flex;
   flex-direction: column;
