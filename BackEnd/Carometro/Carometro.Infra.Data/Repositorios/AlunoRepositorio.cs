@@ -48,5 +48,11 @@ namespace Carometro.Infra.Data.Repositorios
                     .OrderBy(p => p.DataCriacao)
                     .ToList();
         }
+
+        public void Deletar(Guid id)
+        {
+            _context.Alunos.Remove(BuscarPorID(id));
+            _context.SaveChanges();
+        }
     }
 }

@@ -32,7 +32,7 @@ namespace Carometro.Api.Controllers
         [Authorize(Roles = "Administrador")]
         public GenericCommandResult Create([FromForm]CadastrarCommand command, [FromServices] CriarAlunoHandle handle)
         {
-            if(SaveImage(command.ArquivoImagem) != null && command.IsValid)
+            if(SaveImage(command.ArquivoImagem) != null)
             {
                 command.Foto = SaveImage(command.ArquivoImagem);
             }
@@ -43,7 +43,7 @@ namespace Carometro.Api.Controllers
         [Authorize]
         public GenericQueryResult GetAll([FromServices] ListarAlunosHandle handle)
         {
-            ListarAlunosQuery query = new ListarAlunosQuery();
+            ListarAlunosQuery query = new();
 
             //var tipoUsuario = HttpContext.User.Claims.FirstOrDefault(t => t.Type == ClaimTypes.Role);
 
@@ -51,6 +51,13 @@ namespace Carometro.Api.Controllers
             //    query.Ativo = EnStatusPacote.Ativo;
 
             return (GenericQueryResult)handle.Handler(query);
+        }
+
+        [HttpDelete]
+        //[Authorize(Roles = "Administrador")]
+        public GenericCommandResult Delete(RemoverCommand command, [FromServices] ExcluirAlunoHandle handle)
+        {
+            return (GenericCommandResult)handle.Handler(command);
         }
 
         [NonAction]

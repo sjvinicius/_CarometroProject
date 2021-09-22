@@ -45,7 +45,10 @@ namespace Carometro.Testes.Repositorios
             };
         
         }
-        
-        
+
+        public ICollection<Usuario> Listar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

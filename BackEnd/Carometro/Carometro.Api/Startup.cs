@@ -81,6 +81,7 @@ namespace Carometro.Api
 
             services.AddTransient<IAlunoRepositorio, AlunoRepositorio>();
             services.AddTransient<CriarAlunoHandle, CriarAlunoHandle>();
+            services.AddTransient<ExcluirAlunoHandle, ExcluirAlunoHandle>();
             services.AddTransient<ListarAlunosHandle, ListarAlunosHandle>();
 
             #endregion

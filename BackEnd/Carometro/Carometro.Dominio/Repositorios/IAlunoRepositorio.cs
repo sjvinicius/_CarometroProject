@@ -18,5 +18,6 @@ namespace Carometro.Dominio.Repositorios
         Aluno BuscarPorNome(string nome);
 
         Aluno BuscarPorID(Guid id);
+        void Deletar(Guid id);
     }
 }
