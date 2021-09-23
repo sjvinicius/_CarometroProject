@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Carometro.Dominio.Handlers.Alunos
 {
-    public class ExcluirAlunoHandle : IHandlerCommand<RemoverCommand>
+    public class ExcluirAlunoHandle : IHandlerCommand<RemoverAlunoCommand>
     {
         private readonly IAlunoRepositorio _alunoRepositorio;
 
@@ -19,7 +19,7 @@ namespace Carometro.Dominio.Handlers.Alunos
             _alunoRepositorio = alunoRepositorio;
         }
 
-        public ICommandResult Handler(RemoverCommand command)
+        public ICommandResult Handler(RemoverAlunoCommand command)
         {
             command.Validar();
 

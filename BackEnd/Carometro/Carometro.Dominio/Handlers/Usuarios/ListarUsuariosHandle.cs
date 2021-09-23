@@ -28,6 +28,8 @@ namespace Carometro.Dominio.Handlers.Usuarios
                 {
                     return new ListarUsuariosResult()
                     {
+                        Id = x.Id,
+                        DataCriacao = x.DataCriacao,
                         Email = x.Email,
                         Nome = x.Nome,
                         Senha = x.Senha,

@@ -77,6 +77,9 @@ namespace Carometro.Api
             services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
             services.AddTransient<CriarUsuarioHandle, CriarUsuarioHandle>();
             services.AddTransient<ListarUsuariosHandle, ListarUsuariosHandle>();
+            services.AddTransient<ListarAdministradoresHandle, ListarAdministradoresHandle>();
+            services.AddTransient<ListarColaboradoresHandle, ListarColaboradoresHandle>();
+            services.AddTransient<ExcluirUsuarioHandle, ExcluirUsuarioHandle>();
 
             #endregion
 

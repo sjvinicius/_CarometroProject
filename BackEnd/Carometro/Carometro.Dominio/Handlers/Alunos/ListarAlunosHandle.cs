@@ -22,7 +22,7 @@ namespace Carometro.Dominio.Handlers.Alunos
         {
             var alunos = _alunoRepositorio.Listar();
 
-            var retornolunos = alunos.Select(
+            var retornoAlunos = alunos.Select(
                 x =>
                 {
                     return new ListarAlunosResult()
@@ -40,7 +40,7 @@ namespace Carometro.Dominio.Handlers.Alunos
                     };
                 });
 
-            return new GenericQueryResult(true, "Alunos econtrados", retornolunos);
+            return new GenericQueryResult(true, "Alunos econtrados", retornoAlunos);
         }
 
     }

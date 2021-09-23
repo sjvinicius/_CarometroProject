@@ -44,15 +44,15 @@ namespace Carometro.Api.Controllers
         public GenericQueryResult GetAll([FromServices] ListarAlunosHandle handle)
         {
 
-            var imageSrc = String.Format("{0}://{1}{2}/Images/", Request.Scheme, Request.Host, Request.PathBase);
+            var imageSrc = string.Format("{0}://{1}{2}/Images/", Request.Scheme, Request.Host, Request.PathBase);
             ListarAlunosQuery query = new();
 
             return (GenericQueryResult)handle.Handler(query, imageSrc);
         }
 
+        [Authorize(Roles = "Administrador")]
         [HttpDelete]
-        //[Authorize(Roles = "Administrador")]
-        public GenericCommandResult Delete(RemoverCommand command, [FromServices] ExcluirAlunoHandle handle)
+        public GenericCommandResult Delete(RemoverAlunoCommand command, [FromServices] ExcluirAlunoHandle handle)
         {
             return (GenericCommandResult)handle.Handler(command);
         }

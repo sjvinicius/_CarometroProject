@@ -68,6 +68,25 @@ namespace Carometro.Api.Controllers
             return (GenericQueryResult)handle.Handler(query);
         }
 
+        [Route("admins")]
+        [HttpGet]
+        [Authorize]
+        public GenericQueryResult GetAllAdmins([FromServices] ListarAdministradoresHandle handle)
+        {
+            ListarUsuariosQuery query = new();
+
+            return (GenericQueryResult)handle.Handler(query);
+        }
+
+        [Route("colabs")]
+        [HttpGet]
+        [Authorize]
+        public GenericQueryResult GetAllColabs([FromServices] ListarColaboradoresHandle handle)
+        {
+            ListarUsuariosQuery query = new();
+
+            return (GenericQueryResult)handle.Handler(query);
+        }
 
         [Route("signin")]
         [HttpPost]
@@ -82,6 +101,13 @@ namespace Carometro.Api.Controllers
             }
 
             return new GenericCommandResult(false, resultado.Mensagem, resultado.Data);
+        }
+
+        [Authorize(Roles = "Administrador")]
+        [HttpDelete]
+        public GenericCommandResult Delete(RemoverUsuarioCommand command, [FromServices] ExcluirUsuarioHandle handle)
+        {
+            return (GenericCommandResult)handle.Handler(command);
         }
 
     }

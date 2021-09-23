@@ -29,5 +29,8 @@ namespace Carometro.Dominio.Repositorios
         /// <param name="ativo"></param>
         /// <returns>Todos os usuários</returns>
         ICollection<Usuario> Listar();
+        ICollection<Usuario> ListarAdmin();
+        ICollection<Usuario> ListarColab();
+        void Deletar(Guid id);
     }
 }
