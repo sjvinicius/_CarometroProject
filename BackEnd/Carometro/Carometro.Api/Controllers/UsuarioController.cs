@@ -1,9 +1,12 @@
 ﻿using Carometro.Comum.Commands;
+using Carometro.Comum.Queries;
 using Carometro.Dominio.Commands.Autenticacao;
 using Carometro.Dominio.Commands.Usuario;
 using Carometro.Dominio.Entidades;
 using Carometro.Dominio.Handlers.Autenticacao;
 using Carometro.Dominio.Handlers.Usuarios;
+using Carometro.Dominio.Queries.Usuarios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -55,6 +58,16 @@ namespace Carometro.Api.Controllers
         {
             return (GenericCommandResult)handle.Handler(command);
         }
+
+        [HttpGet]
+        [Authorize]
+        public GenericQueryResult GetAll([FromServices] ListarUsuariosHandle handle)
+        {
+            ListarUsuariosQuery query = new();
+
+            return (GenericQueryResult)handle.Handler(query);
+        }
+
 
         [Route("signin")]
         [HttpPost]

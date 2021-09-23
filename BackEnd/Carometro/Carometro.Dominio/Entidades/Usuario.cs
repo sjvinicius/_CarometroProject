@@ -12,6 +12,11 @@ namespace Carometro.Dominio.Entidades
 {
     public class Usuario : Entidade
     {
+        public Usuario()
+        {
+
+        }
+
         public Usuario(string nome, string email, string senha, EnTipoUsuario tipoUsuario)
         {
             AddNotifications(
