@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Carometro.Dominio.Handlers.Alunos
 {
-    public class ListarAlunosHandle : IHandlerQuery<ListarAlunosQuery>
+    public class ListarAlunosHandle : IHandlerImageQuery<ListarAlunosQuery>
     {
         private readonly IAlunoRepositorio _alunoRepositorio;
 
@@ -18,7 +18,7 @@ namespace Carometro.Dominio.Handlers.Alunos
         {
             _alunoRepositorio = alunoRepositorio;
         }
-        public IQueryResult Handler(ListarAlunosQuery query)
+        public IQueryResult Handler(ListarAlunosQuery query, string imageSrc)
         {
             var alunos = _alunoRepositorio.Listar();
 
@@ -35,11 +35,13 @@ namespace Carometro.Dominio.Handlers.Alunos
                         Endereco = x.Endereco,
                         NumMatricula = x.NumMatricula,
                         Foto = x.Foto,
-                        DataCriacao = x.DataCriacao
+                        DataCriacao = x.DataCriacao,
+                        ImageSrc = imageSrc + x.Foto
                     };
                 });
 
             return new GenericQueryResult(true, "Alunos econtrados", retornolunos);
         }
+
     }
 }

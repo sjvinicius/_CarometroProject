@@ -43,14 +43,11 @@ namespace Carometro.Api.Controllers
         [Authorize]
         public GenericQueryResult GetAll([FromServices] ListarAlunosHandle handle)
         {
+
+            var imageSrc = String.Format("{0}://{1}{2}/Images/", Request.Scheme, Request.Host, Request.PathBase);
             ListarAlunosQuery query = new();
 
-            //var tipoUsuario = HttpContext.User.Claims.FirstOrDefault(t => t.Type == ClaimTypes.Role);
-
-            //if (tipoUsuario.Value.ToString() == EnTipoUsuario.Administrador.ToString())
-            //    query.Ativo = EnStatusPacote.Ativo;
-
-            return (GenericQueryResult)handle.Handler(query);
+            return (GenericQueryResult)handle.Handler(query, imageSrc);
         }
 
         [HttpDelete]

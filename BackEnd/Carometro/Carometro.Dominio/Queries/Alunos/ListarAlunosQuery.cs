@@ -29,5 +29,6 @@ namespace Carometro.Dominio.Queries.Alunos
         public int NumMatricula { get; set; }
         public string Foto { get; set; }
         public DateTime DataCriacao { get; set; }
+        public string ImageSrc { get; set; }
     }
 }
