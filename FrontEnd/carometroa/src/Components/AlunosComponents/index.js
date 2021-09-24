@@ -16,6 +16,8 @@ import { ArrowReturnLeft } from '@styled-icons/bootstrap/ArrowReturnLeft'
 import api from '../../Services/api/apiStudent'
 
 
+const baseURL = 'http://localhost:5000/Images/'
+
 
 
 export default function BodyAlunos() {
@@ -51,13 +53,11 @@ export default function BodyAlunos() {
         })
 
         console.log(response)
-        
 
         if (response.data.sucesso === true) {
 
 
-            setAlunos(response.data.data);
-            
+            setAlunos(response.data.data)
 
         }
 
@@ -68,47 +68,59 @@ export default function BodyAlunos() {
     function AsideAlunos() {
 
         const [fotoValue, setFotoValue] = useState('Enviar Arquivo');
-
-        function CadastrarAluno(data) {
-            
-            console.log(data.nome)
-            console.log(data.turma)
-            console.log(data.status)
-            console.log(data.rg)
-            console.log(data.endereco)
-            console.log(data.nmat)
-            console.log(data.file)
-            // setFotoValue(data.file)
-            console.log(data.file[0].name)
-            let aluno = {
-                nome : data.nome,
-                turma : data.turma,
-                status : data.status,
-                rg : data.rg,
-                endereco : data.endereco,
-                numMatricula : data.nmat,
-                foto : data.file[0].name,
-                arquivoImagem: data.file
-            }
-            console.log(aluno)
-            api.post('/student', aluno, {
-                    headers: {
-                        'Authorization': 'Bearer ' + localStorage.getItem('tokenUserUp')
-                    }
-                })
-
-            // if( response.data.sucesso === true ){
-
-                
-
-            // }
-
-        }
-
+        
         // Fechar Modal
         function Close() {
             document.getElementById("aside").style.visibility = "hidden";
         }
+
+        async function CadastrarAluno(data) {
+
+            const formData = new FormData()
+            formData.append('nome', data.nome)
+            formData.append('turma', data.turma)
+            formData.append('status', data.status)
+            formData.append('rg', data.rg)
+            formData.append('endereco', data.endereco)
+            formData.append('numMatricula', data.nmat)
+            formData.append('foto', data.file[0].name)
+            formData.append('arquivoImagem', data.file[0])
+
+            const response = await api.post('/student',
+
+                formData,
+
+                {
+
+                    headers: {
+
+                        'Authorization': 'Bearer ' + localStorage.getItem('tokenUserUp')
+
+                    }
+                    
+                }
+
+            )
+
+            if( response.data.sucesso === true ){
+
+                console.log('Sucesso no cadastro')
+                Close();
+                BuscarAlunos();
+
+            }
+
+        }
+
+        function AlterNomeFile(){
+
+            var input = document.querySelector("#file");
+            setFotoValue(input.value)
+            
+
+        }
+
+        
 
         return (
 
@@ -135,7 +147,7 @@ export default function BodyAlunos() {
                         </SelectAlunos>
                         <WrapperFile>
                             <LabelFile htmlFor='file'>{fotoValue}</LabelFile>
-                            <InputFile {...register('file')} type="file" name='file' id='file' />
+                            <InputFile onInput={AlterNomeFile} {...register('file')} type="file" name='file' id='file' />
                         </WrapperFile>
                         <ButtonAlunos type='submit' value='Cadastrar' />
                     </FormAside>
@@ -174,27 +186,54 @@ export default function BodyAlunos() {
 
                         <IconAdd onClick={Open} />
                     </SubTopPage>
+                    
+                    <ListaAlunos>
 
                     {/* INSIRA O FOREACH AQUI */}
-                    <ListaAlunos>
-                        <ItemAluno>
-                            <ImgAluno />
-                            <InfoAluno>
-                                <NomeAluno>Silva Correia Filho de Nobregaasdasdasdasdads</NomeAluno>
-                                <WrapperRg>
-                                    <DataAluno>Rg</DataAluno>
-                                    <DataAluno>Matricula</DataAluno>
-                                </WrapperRg>
-                                <DataAluno>Turma</DataAluno>
-                            </InfoAluno>
-                            <WrapperStatus>
-                                {/* Manha/ Tarde / Noite */}
-                                <MorningIcon />
-                                <IconMgmt />
-                            </WrapperStatus>
-                        </ItemAluno>
-                    </ListaAlunos>
 
+                    {
+
+                        alunos.map( aluno => {
+
+                            return(
+                                    <ItemAluno key={aluno.id}>
+                                        <ImgAluno src={baseURL + aluno.foto}/>
+                                        <InfoAluno>
+                                            <NomeAluno>{aluno.nome}</NomeAluno>
+                                            <WrapperRg>
+                                                <DataAluno>{aluno.rg}</DataAluno>
+                                                <DataAluno>{aluno.numMatricula}</DataAluno>
+                                            </WrapperRg>
+                                            <DataAluno>{
+                                            
+                                                aluno.status === 1 ? 'Cursando':
+                                                aluno.status === 2 ? 'Concluído':
+                                                                     'Expulso'
+                                            
+                                            }</DataAluno>
+                                        </InfoAluno>
+                                        <WrapperStatus>
+                                            {/* Manha/ Tarde / Noite */}
+
+                                            {
+                                                aluno.turma === 0 ? <MorningIcon/> : 
+                                                aluno.turma === 1 ? <AfternoonIcon/> :
+                                                                     <NightIcon/>
+                                            
+                                            }
+
+                                            {/* <IconMgmt onClick={AtualizarAluno}/> */}
+                                            <IconMgmt />
+                                        </WrapperStatus>
+                                    </ItemAluno>
+                                
+                            )
+
+                        })
+
+                    }
+
+                    </ListaAlunos>
 
                 </ContentAlunos>
             </BackgroundAlunos>

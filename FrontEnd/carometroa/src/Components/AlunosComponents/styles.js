@@ -87,7 +87,7 @@ export const Logo = styled(LogoMenu)`
 export const Aside = styled.div`
   background-color: #FFF;
   position: fixed;
-  width: 32%;
+  width: 25%;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -137,15 +137,18 @@ export const InputFile = styled.input`
 
 export const LabelFile = styled.label`
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  max-width: 17rem;
   height: 2rem;
   margin: 0.5rem auto;
   border-radius: 15px;
   border: solid 3px #5E9CFF;
   outline: none;
-  text-align: center;
-  padding-left: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 3.5rem; */
   cursor: pointer;
+  overflow: hidden;
   :hover{
 
     
@@ -248,8 +251,9 @@ export const ListaAlunos = styled.div`
   /* background-color: red; */
   position: relative;
   height: 68vh;
+  overflow: auto;
   
-  `;
+`;
 
 export const ItemAluno = styled.div`
   background-color: #FFF;

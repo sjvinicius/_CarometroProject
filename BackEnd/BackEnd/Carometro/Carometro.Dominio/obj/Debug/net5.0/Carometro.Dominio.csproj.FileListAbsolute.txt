@@ -1,0 +1,30 @@
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Comum.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csprojAssemblyReference.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.AssemblyInfoInputs.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.AssemblyInfo.cs
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.deps.json
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\ref\Carometro.Dominio.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.pdb
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Comum.pdb
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csproj.CopyComplete
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\ref\Carometro.Dominio.dll
+C:\Users\Desktop\source\repos\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.pdb
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.deps.json
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\ref\Carometro.Dominio.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Dominio.pdb
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Comum.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\bin\Debug\net5.0\Carometro.Comum.pdb
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csprojAssemblyReference.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.AssemblyInfoInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.AssemblyInfo.cs
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.csproj.CopyComplete
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\ref\Carometro.Dominio.dll
+C:\Users\vinyl\OneDrive\Documentos\Curso Desenvolvimento de Sistemas SENAI\_CarometroSENAI\_CarometroProject\BackEnd\Carometro\Carometro.Dominio\obj\Debug\net5.0\Carometro.Dominio.pdb

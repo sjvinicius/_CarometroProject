@@ -12,6 +12,7 @@ import Home from './Pages/Home'
 import Login from './Pages/Login'
 import Menu from './Pages/Menu'
 import Alunos from './Pages/Alunos'
+import Equipe from './Pages/Equipe'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route name="Login"   component={Login}   path="/Login"/>
       <Route name="Menu"    component={Menu}    path="/Menu"/>
       <Route name="Alunos"  component={Alunos}  path="/Alunos"/>
+      <Route name="Equipe"  component={Equipe}  path="/Equipe"/>
     </Switch>
   </BrowserRouter>
   ,

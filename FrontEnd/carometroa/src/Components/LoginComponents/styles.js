@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import ImgLogin from '../../Images/HandIAImage.jpg'
 
@@ -71,12 +71,12 @@ export const ErroMsg = styled.p`
   text-align: center;
 `;
 
-export const RedirectPwd = styled(Link)`
-  margin-top: 0rem;
-  color: #5E9CFF;
-  text-transform: capitalize;
-  font-size: 1.2rem;
-`;
+// export const RedirectPwd = styled(Link)`
+//   margin-top: 0rem;
+//   color: #5E9CFF;
+//   text-transform: capitalize;
+//   font-size: 1.2rem;
+// `;
 
 export const BannerLogin = styled.div`
   background-image: url(${ImgLogin});

@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom'
 
 // Styles
 
-import { Container, AsideLogin, Logo, FormLogin, InputLogin, ButtonLogin, ErroMsg, RedirectPwd, BannerLogin } from './styles'
+import { Container, AsideLogin, Logo, FormLogin, InputLogin, ButtonLogin, ErroMsg, BannerLogin } from './styles'
 
 //Images
 import logo from '../../Images/logo.png'
@@ -91,7 +91,7 @@ export default function BodyLogin() {
                 </FormLogin>
                 <ErroMsg id='erroMsgData' >Erro ao fazer login, tente novamente.</ErroMsg>
                 <ErroMsg id='erroMsgNull' >Preencha os Campos.</ErroMsg>
-                <RedirectPwd to='Home' >Esqueci minha senha</RedirectPwd>
+                {/* <RedirectPwd to='Home' >Esqueci minha senha</RedirectPwd> */}
             </AsideLogin>
             <BannerLogin/>
         </Container>

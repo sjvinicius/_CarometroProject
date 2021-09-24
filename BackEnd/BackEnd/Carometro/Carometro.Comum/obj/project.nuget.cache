@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mi0EdKPMnd0pkrBcRJfZIFlMYL/LeBX9rRdqnm7Tqh9iJXrj5CI0xfmbelLUvp7jO33z8PKN2Eaxgs73G8by0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinyl\\OneDrive\\Documentos\\Curso Desenvolvimento de Sistemas SENAI\\_CarometroSENAI\\_CarometroProject\\BackEnd\\Carometro\\Carometro.Comum\\Carometro.Comum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinyl\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
+    "C:\\Users\\vinyl\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
